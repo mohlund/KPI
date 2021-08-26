@@ -1,11 +1,7 @@
-query 50100 "Shipment Lines API"
+query 50100 "Shipment Lines"
 {
-    QueryType = API;
-    APIGroup = 'customAPI';
-    APIPublisher = 'Cosmo';
-    APIVersion = 'v1.0';
-    EntityName = 'ShipmentLine';
-    EntitySetName = 'ShipmentLines';
+    Caption = 'Shipment Lines';
+    QueryType = Normal;
     DataAccessIntent = ReadOnly;
 
     elements
