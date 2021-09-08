@@ -1,26 +1,23 @@
-query 50100 "Shipment Lines"
+query 50100 "PBI - Shipment Lines"
 {
-    Caption = 'Shipment Lines';
-    QueryType = Normal;
-    DataAccessIntent = ReadOnly;
+    APIGroup = 'Kaelus';
+    APIPublisher = 'Cosmo';
+    APIVersion = 'v1.0';
+    EntityName = 'ShipmentLine';
+    EntitySetName = 'ShipmentLines';
+    QueryType = API;
 
     elements
     {
         dataitem(salesShipmentHeader; "Sales Shipment Header")
         {
-            column(shipmentNo; "No.")
+            column(SellToCustomerNo; "Sell-to Customer No.")
             {
             }
-            column(shipToCustomerNo; "Sell-to Customer No.")
+            column(ShipToCity; "Ship-to City")
             {
             }
-            column(shipToCity; "Ship-to City")
-            {
-            }
-            column(shipToCountryRegion; "Ship-to Country/Region Code")
-            {
-            }
-            column(documentDate; "Document Date")
+            column(ShipToCountryRegion; "Ship-to Country/Region Code")
             {
             }
             dataitem(salesShipmentLines; "Sales Shipment Line")
@@ -28,37 +25,49 @@ query 50100 "Shipment Lines"
                 DataItemLink = "Document No." = salesShipmentHeader."No.";
                 DataItemTableFilter = Type = FILTER(Item), Quantity = FILTER(<> 0);
 
-                column(itemNo; "No.")
+                column(ShipmentNo; "Document No.")
                 {
                 }
-                column(postingDate; "Posting Date")
+                column(ShipmentLineNo; "Line No.")
                 {
                 }
-                column(shipmentDate; "Shipment Date")
+                column(ItemNo; "No.")
                 {
                 }
-                column(promisedDeliveryDate; "Promised Delivery Date")
+                column(ShippedQuantity; Quantity)
+                {
+                }
+                column(PostingDate; "Posting Date")
+                {
+                }
+                column(ShipmentDate; "Shipment Date")
+                {
+                }
+                column(PromisedDeliveryDate; "Promised Delivery Date")
                 {
                 }
                 column(RequestedDeliveryDate; "Requested Delivery Date")
                 {
                 }
-                column(shippedQuantity; Quantity)
+                column(PlannedDeliveryDate; "Planned Delivery Date")
                 {
                 }
-                column(sourceOrderNo; "Order No.")
+                column(PlannedShipmentDate; "Planned Shipment Date")
                 {
                 }
-                column(sourceOrderLineNo; "Order Line No.")
+                column(SourceOrderNo; "Order No.")
                 {
                 }
-                column(systemModifiedAt; SystemModifiedAt)
+                column(SourceOrderLineNo; "Order Line No.")
+                {
+                }
+                column(SystemModifiedAt; SystemModifiedAt)
                 {
                 }
                 dataitem(customer; Customer)
                 {
                     DataItemLink = "No." = salesShipmentHeader."Sell-to Customer No.";
-                    column(shipToCustomerName; Name)
+                    column(SellToCustomerName; Name)
                     {
                     }
 

@@ -1,8 +1,12 @@
-query 50101 Items
+query 50101 "PBI - Items"
 {
-    Caption = 'Items';
-    QueryType = Normal;
-    DataAccessIntent = ReadOnly;
+    APIGroup = 'Kaelus';
+    APIPublisher = 'Cosmo';
+    APIVersion = 'v1.0';
+    EntityName = 'Item';
+    EntitySetName = 'Items';
+    QueryType = API;
+
     elements
     {
         dataitem(Item; Item)

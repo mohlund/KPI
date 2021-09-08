@@ -1,7 +1,11 @@
-query 50102 Customers
+query 50102 "PBI - Customers"
 {
-    Caption = 'Customers';
-    QueryType = Normal;
+    APIGroup = 'Kaelus';
+    APIPublisher = 'Cosmo';
+    APIVersion = 'v1.0';
+    EntityName = 'Customer';
+    EntitySetName = 'Customers';
+    QueryType = API;
 
     elements
     {
@@ -41,12 +45,6 @@ query 50102 Customers
             column(Contact; Contact)
             {
             }
-            column(PhoneNo; "Phone No.")
-            {
-            }
-            column(DocumentSendingProfile; "Document Sending Profile")
-            {
-            }
             column(CurrencyCode; "Currency Code")
             {
             }
@@ -62,11 +60,10 @@ query 50102 Customers
             column(ShippingAgentCode; "Shipping Agent Code")
             {
             }
-
-            column(Blocked; Blocked)
+            column(ShippingTime; "Shipping Time")
             {
             }
-            column(ShippingTime; "Shipping Time")
+            column(Blocked; Blocked)
             {
             }
             column(SystemModifiedAt; SystemModifiedAt)

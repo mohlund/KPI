@@ -3,20 +3,38 @@
     <TenantWebServiceCollection>
         <TenantWebService>
             <ObjectType>Query</ObjectType>
-            <ServiceName>ShipmentLines</ServiceName>
+            <ServiceName>K-ShipmentLines</ServiceName>
             <ObjectID>50100</ObjectID>
             <Published>true</Published>
         </TenantWebService>
         <TenantWebService>
             <ObjectType>Query</ObjectType>
-            <ServiceName>Items</ServiceName>
+            <ServiceName>K-Items</ServiceName>
             <ObjectID>50101</ObjectID>
             <Published>true</Published>
         </TenantWebService>
         <TenantWebService>
             <ObjectType>Query</ObjectType>
-            <ServiceName>Customers</ServiceName>
+            <ServiceName>K-Customers</ServiceName>
             <ObjectID>50102</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Query</ObjectType>
+            <ServiceName>K-Companies</ServiceName>
+            <ObjectID>50103</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Query</ObjectType>
+            <ServiceName>K-ValueEntries</ServiceName>
+            <ObjectID>50104</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Query</ObjectType>
+            <ServiceName>K-SalesLines</ServiceName>
+            <ObjectID>50105</ObjectID>
             <Published>true</Published>
         </TenantWebService>
     </TenantWebServiceCollection>
