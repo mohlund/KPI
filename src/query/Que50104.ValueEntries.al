@@ -1,6 +1,6 @@
 query 50104 "PBI - Value Entries"
 {
-    APIGroup = 'Kaelus';
+    APIGroup = 'PowerBI';
     APIPublisher = 'Cosmo';
     APIVersion = 'v1.0';
     EntityName = 'ValueEntry';

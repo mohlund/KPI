@@ -37,5 +37,17 @@
             <ObjectID>50105</ObjectID>
             <Published>true</Published>
         </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Query</ObjectType>
+            <ServiceName>K-DetCustLedgerEntries</ServiceName>
+            <ObjectID>50106</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Query</ObjectType>
+            <ServiceName>K-GeneralLedgerSetup</ServiceName>
+            <ObjectID>50107</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
     </TenantWebServiceCollection>
 </ExportedData>

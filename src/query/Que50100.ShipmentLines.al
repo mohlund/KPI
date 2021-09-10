@@ -1,6 +1,6 @@
 query 50100 "PBI - Shipment Lines"
 {
-    APIGroup = 'Kaelus';
+    APIGroup = 'PowerBI';
     APIPublisher = 'Cosmo';
     APIVersion = 'v1.0';
     EntityName = 'ShipmentLine';

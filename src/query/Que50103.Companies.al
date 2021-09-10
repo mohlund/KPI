@@ -1,6 +1,6 @@
 query 50103 "PBI - Companies"
 {
-    APIGroup = 'Kaelus';
+    APIGroup = 'PowerBI';
     APIPublisher = 'Cosmo';
     APIVersion = 'v1.0';
     EntityName = 'Company';

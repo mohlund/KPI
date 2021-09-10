@@ -1,6 +1,6 @@
 query 50105 "PBI - Sales Lines"
 {
-    APIGroup = 'Kaelus';
+    APIGroup = 'PowerBI';
     APIPublisher = 'Cosmo';
     APIVersion = 'v1.0';
     EntityName = 'SalesLine';
@@ -19,6 +19,9 @@ query 50105 "PBI - Sales Lines"
             }
             column(LineNo; "Line No.")
             {
+            }
+            column(SellToCustomerNo; "Sell-to Customer No.")
+            { 
             }
             column("Type"; "Type")
             {

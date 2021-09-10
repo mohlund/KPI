@@ -1,6 +1,6 @@
 query 50102 "PBI - Customers"
 {
-    APIGroup = 'Kaelus';
+    APIGroup = 'PowerBI';
     APIPublisher = 'Cosmo';
     APIVersion = 'v1.0';
     EntityName = 'Customer';

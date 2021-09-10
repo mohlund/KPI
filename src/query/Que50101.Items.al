@@ -1,6 +1,6 @@
 query 50101 "PBI - Items"
 {
-    APIGroup = 'Kaelus';
+    APIGroup = 'PowerBI';
     APIPublisher = 'Cosmo';
     APIVersion = 'v1.0';
     EntityName = 'Item';
