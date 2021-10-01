@@ -20,6 +20,12 @@ query 50104 "PBI - Value Entries"
             column(PostingDate; "Posting Date")
             {
             }
+            column(DocumentType; "Document Type")
+            {   
+            }
+            column(DocumentNo; "Document No.")
+            { 
+            }
             column(LocationCode; "Location Code")
             {
             }
@@ -71,29 +77,11 @@ query 50104 "PBI - Value Entries"
             column(DiscountAmount; "Discount Amount")
             {
             }
-            column(GlobalDimension1Code; "Global Dimension 1 Code")
-            {
+            column(SourceType; "Source Type")
+            {  
             }
-            column(GlobalDimension2Code; "Global Dimension 2 Code")
-            {
-            }
-            column(ShortcutDimension3Code; "Shortcut Dimension 3 Code")
-            {
-            }
-            column(ShortcutDimension4Code; "Shortcut Dimension 4 Code")
-            {
-            }
-            column(ShortcutDimension5Code; "Shortcut Dimension 5 Code")
-            {
-            }
-            column(ShortcutDimension6Code; "Shortcut Dimension 6 Code")
-            {
-            }
-            column(ShortcutDimension7Code; "Shortcut Dimension 7 Code")
-            {
-            }
-            column(ShortcutDimension8Code; "Shortcut Dimension 8 Code")
-            {
+            column(SourceNo; "Source No.")
+            { 
             }
             column(SystemModifiedAt; SystemModifiedAt)
             {

@@ -49,5 +49,11 @@
             <ObjectID>50107</ObjectID>
             <Published>true</Published>
         </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Query</ObjectType>
+            <ServiceName>K-ItemLedgerEntries</ServiceName>
+            <ObjectID>50108</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
     </TenantWebServiceCollection>
 </ExportedData>

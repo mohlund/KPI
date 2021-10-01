@@ -104,6 +104,18 @@ query 50105 "PBI - Sales Lines"
             column(SystemModifiedAt; SystemModifiedAt)
             {
             }
+            dataitem(salesHeader; "Sales Header")
+            {
+                DataItemLink = "No." = salesLine."Document No.";
+                DataItemTableFilter = "Document Type" = CONST(Order);
+                
+                column(ShipToCountryRegionCode;"Ship-to Country/Region Code")
+                {
+                }
+                column(ShipToCity; "Ship-to City")
+                { 
+                }
+            }
         }
     }
 
