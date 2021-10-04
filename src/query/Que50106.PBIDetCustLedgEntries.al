@@ -1,4 +1,4 @@
-query 50106 "PBI - DetCustLedgEntry"
+query 50106 "PBI - Det Cust Ledger Entries"
 {
     APIGroup = 'PowerBI';
     APIPublisher = 'Cosmo';
