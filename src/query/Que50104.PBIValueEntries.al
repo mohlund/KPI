@@ -53,12 +53,6 @@ query 50104 "PBI - Value Entries"
             column(CostAmountExpected; "Cost Amount (Expected)")
             {
             }
-            column(CostPostedToGL; "Cost Posted to G/L")
-            {
-            }
-            column(ExpectedCostPostedToGL; "Expected Cost Posted to G/L")
-            {
-            }
             column(CostPerUnit; "Cost per Unit")
             {
             }

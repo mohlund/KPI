@@ -35,14 +35,8 @@ query 50105 "PBI - Sales Lines"
             column(Quantity; Quantity)
             {
             }
-            column(UnitOfMeasure; "Unit of Measure")
-            {
-            }
             column(UnitOfMeasureCode; "Unit of Measure Code")
             {
-            }
-            column(QtyPerUnitOfMeasure; "Qty. per Unit of Measure")
-            {   
             }
             column(UnitPrice; "Unit Price")
             {

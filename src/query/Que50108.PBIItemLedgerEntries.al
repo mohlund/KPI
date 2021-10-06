@@ -35,15 +35,6 @@ query 50108 "PBI - Item Ledger Entries"
             column(DocumentNo; "Document No.")
             {
             }
-            column(Description; Description)
-            {
-            }
-            column(QtyPerUnitOfMeasure; "Qty. per Unit of Measure")
-            {
-            }
-            column(UnitOfMeasureCode; "Unit of Measure Code")
-            {
-            }
             column(Quantity; Quantity)
             {
             }
@@ -53,7 +44,6 @@ query 50108 "PBI - Item Ledger Entries"
             column(InvoicedQuantity; "Invoiced Quantity")
             {
             }
-
             column(LocationCode; "Location Code")
             {
             }
@@ -69,7 +59,6 @@ query 50108 "PBI - Item Ledger Entries"
             column(ItemCategoryCode; "Item Category Code")
             {
             }
-            
             column(Nonstock; Nonstock)
             {
             }

@@ -64,14 +64,6 @@ query 50100 "PBI - Shipment Lines"
                 column(SystemModifiedAt; SystemModifiedAt)
                 {
                 }
-                dataitem(customer; Customer)
-                {
-                    DataItemLink = "No." = salesShipmentHeader."Sell-to Customer No.";
-                    column(SellToCustomerName; Name)
-                    {
-                    }
-
-                }
             }
         }
     }

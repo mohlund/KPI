@@ -14,12 +14,6 @@ query 50106 "PBI - Det Cust Ledger Entries"
             column(EntryNo; "Entry No.")
             {
             }
-            column(CustLedgerEntryNo; "Cust. Ledger Entry No.")
-            {
-            }
-            column(AppliedCustLedgEntryNo; "Applied Cust. Ledger Entry No.")
-            { 
-            }
             column(EntryType; "Entry Type")
             {
             }
