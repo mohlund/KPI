@@ -12,6 +12,7 @@ permissionset 50100 "Cosmo KPI Perm Set"
         query "PBI - Customers" = X,
         query "PBI - Items" = X,
         query "PBI - Shipment Lines" = X,
+        query "PBI - Customer Ledger Entries" = X,
         tabledata Customer = R,
         tabledata Item = R,
         tabledata "Sales Line" = R,
@@ -21,6 +22,7 @@ permissionset 50100 "Cosmo KPI Perm Set"
         tabledata Company = R,
         tabledata "Value Entry" = R,
         tabledata "Detailed Cust. Ledg. Entry" = R,
+        tabledata "Cust. Ledger Entry" = R,
         tabledata "General Ledger Setup" = R,
         tabledata "Item Ledger Entry" = R;
     

@@ -38,6 +38,9 @@ query 50106 "PBI - Det Cust Ledger Entries"
             column(CurrencyCode; "Currency Code")
             {
             }
+            column(CustLedgerEntryNo; "Cust. Ledger Entry No.")
+            { 
+            }
             column(SystemModifiedAt; SystemModifiedAt)
             {
             }
