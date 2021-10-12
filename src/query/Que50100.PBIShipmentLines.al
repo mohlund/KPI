@@ -61,6 +61,9 @@ query 50100 "PBI - Shipment Lines"
                 column(SourceOrderLineNo; "Order Line No.")
                 {
                 }
+                column(ShippingTime; "Shipping Time")
+                {
+                }
                 column(SystemModifiedAt; SystemModifiedAt)
                 {
                 }

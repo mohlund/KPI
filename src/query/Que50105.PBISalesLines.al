@@ -95,6 +95,9 @@ query 50105 "PBI - Sales Lines"
             column(PlannedShipmentDate; "Planned Shipment Date")
             {
             }
+            column(ShippingTime; "Shipping Time")
+            {   
+            }
             column(SystemModifiedAt; SystemModifiedAt)
             {
             }

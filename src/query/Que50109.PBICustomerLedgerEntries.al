@@ -45,6 +45,9 @@ query 50109 "PBI - Customer Ledger Entries"
             column(Open; Open)
             {
             }
+            column(ClosedAtDate; "Closed at Date")
+            {
+            }
             column(SystemModifiedAt; SystemModifiedAt)
             {
             }
