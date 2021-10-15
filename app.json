@@ -1,8 +1,8 @@
 {
   "id": "f504474c-5f5e-4064-bdf4-cedb17bda048",
   "name": "KPI Pack",
-  "publisher": "COSMO CONSULT",
-  "version": "18.0.0.1",
+  "publisher": "Cosmo Consult",
+  "version": "18.0.0.3",
   "brief": "",
   "description": "Query pack to build KPI's in Power BI",
   "privacyStatement": "",
