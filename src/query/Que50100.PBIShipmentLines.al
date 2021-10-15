@@ -34,6 +34,9 @@ query 50100 "PBI - Shipment Lines"
                 column(ItemNo; "No.")
                 {
                 }
+                column(LocationCode; "Location Code")
+                {  
+                }
                 column(ShippedQuantity; Quantity)
                 {
                 }

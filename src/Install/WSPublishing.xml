@@ -73,5 +73,11 @@
             <ObjectID>50111</ObjectID>
             <Published>true</Published>
         </TenantWebService>
+        <TenantWebService>
+            <ObjectType>Query</ObjectType>
+            <ServiceName>K-CountryRegion</ServiceName>
+            <ObjectID>50112</ObjectID>
+            <Published>true</Published>
+        </TenantWebService>
     </TenantWebServiceCollection>
 </ExportedData>
