@@ -21,6 +21,9 @@ query 50109 "PBI - Customer Ledger Entries"
             column(PostingDate; "Posting Date")
             {
             }
+            column(DocumentDate; "Document Date")
+            {
+            }
             column(DocumentType; "Document Type")
             {
             }

@@ -41,9 +41,11 @@ query 50102 "PBI - Customers"
             column(EMail; "E-Mail")
             {
             }
-
             column(Contact; Contact)
             {
+            }
+            column(SalespersonCode; "Salesperson Code")
+            {   
             }
             column(CurrencyCode; "Currency Code")
             {
