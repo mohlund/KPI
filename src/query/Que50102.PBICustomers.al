@@ -53,6 +53,12 @@ query 50102 "PBI - Customers"
             column(CustomerPostingGroup; "Customer Posting Group")
             {
             }
+            column(CoustomerPriceGroup; "Customer Price Group")
+            {  
+            }
+            column(CustomerDiscountGroup; "Customer Disc. Group")
+            {  
+            }
             column(PaymentTermsCode; "Payment Terms Code")
             {
             }

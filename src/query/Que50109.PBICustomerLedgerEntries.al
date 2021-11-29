@@ -33,6 +33,9 @@ query 50109 "PBI - Customer Ledger Entries"
             column(CurrencyCode; "Currency Code")
             {
             }
+            column(Prepayment; Prepayment)
+            {  
+            }
             column(SalesLCY; "Sales (LCY)")
             {
             }
